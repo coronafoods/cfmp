@@ -10,7 +10,8 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    unoptimized: true,
+    loader: 'akamai',
+    path: ''
   }
 }
 
