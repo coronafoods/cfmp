@@ -29,10 +29,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
+import logo from '../public/images/logo.png'
+import spices from '../public/images/spices.jpg'
 
 function Logo() {
     return <Image
-        src="/images/logo.png"
+        src={logo}
         height={400}
         width={600}
         alt="Corona Foods Meal Prep Logo"
@@ -42,7 +44,7 @@ function Logo() {
 
 function Spices() {
     return <Image
-        src="/images/spices.jpg"
+        src={spices}
         height={500}
         width={500}
         alt="Spices on table"
