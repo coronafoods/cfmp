@@ -36,8 +36,7 @@ module.exports = (phase, { defaultConfig }) => {
     output: 'export',
         basePath: '/cfmp',
         images: {
-          loader: 'akamai',
-          path: '/',
+          unoptimized: true,
         }  
   }
 }
