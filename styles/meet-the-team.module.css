@@ -1,0 +1,22 @@
+.main_container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.title_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.team_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #043E8D;
+}

@@ -1,0 +1,63 @@
+.main_container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto -8px;
+    z-index: -1;
+    position: relative
+}
+
+.your_why_container {
+    display: flex;
+}
+
+.our_why_container {
+    display: flex;
+}
+
+.our_why_txt {
+    background-color: #eccb83;
+    text-transform:uppercase;
+}
+
+.our_why_title {
+    font-weight: 500;
+    color: white;
+    margin-left: 3rem;
+    border-bottom: 2px solid white;
+    width: 20rem;
+    padding-left: 1rem;
+}
+
+.our_why_copy {
+    color: white;
+    margin: auto 48px;
+}
+
+.your_why_txt {
+    background-color: #043E8D;
+    text-transform:uppercase;
+}
+
+.your_why_title_container {
+    display: flex;
+    justify-content: right;
+}
+
+.your_why_title {
+    font-weight: 500;
+    color: white;
+    margin-right: 3rem;
+    border-bottom: 2px solid white;
+    width: 20rem;
+    padding-left: 1rem;
+}
+
+.your_why_copy {
+    color: white;
+    margin: auto 48px;
+}
+
+.spices {
+    margin: 4rem;
+    box-shadow: 30px -30px 0px #eccb83; 
+}

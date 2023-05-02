@@ -1,0 +1,24 @@
+.container_main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.title {
+    text-transform:uppercase;
+    color:#043E8D;
+    font-weight: 500;
+    margin: 3rem auto;
+}
+
+.container_txt {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.copy {
+    margin: 50px 100px;
+}
+
+.chef {
+    margin: 5rem;
+}

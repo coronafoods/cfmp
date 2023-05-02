@@ -1,0 +1,36 @@
+.main_container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.title_container {
+    display: flex;
+    justify-content: right;
+}
+
+.meal_container_top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.meal_container_bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-weight: 500;
+    color: #043E8D;
+    margin-right: 3rem;
+    width: 20rem;
+    padding-left: 1rem;
+    text-transform:uppercase;
+}
+
+.spices {
+    margin: 1rem -1rem;
+}
