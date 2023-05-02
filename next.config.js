@@ -10,8 +10,8 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    loader: 'akamai',
-    path: ''
+    loader: 'imgix',
+    path: '/',
   }
 }
 
