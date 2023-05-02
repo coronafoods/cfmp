@@ -43,8 +43,8 @@ function Logo() {
 function Spices() {
     return <Image
         src="/images/spices.jpg"
-        height={100}
-        width={100}
+        height={500}
+        width={500}
         alt="Spices on table"
         className="spices"
     />
