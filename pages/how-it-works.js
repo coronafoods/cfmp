@@ -1,10 +1,12 @@
 import Navbar from '../components/navbar'
 import Image from 'next/image';
 import css from '../styles/how-it-works.module.css'
+import spices from '../public/images/spices.jpg'
+
 
 function Spices() {
     return <Image
-        src="/images/spices.jpg"
+        src={spices}
         height={500}
         width={420}
         alt="spices"

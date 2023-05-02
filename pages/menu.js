@@ -1,10 +1,17 @@
 import Navbar from '../components/navbar'
 import Image from 'next/image';
 import css from '../styles/menu.module.css'
+import burger from '../public/images/burger.jpg'
+import egg from '../public/images/egg.jpg'
+import fish from '../public/images/fish.jpg'
+import mediterranean from '../public/images/mediterranean.jpg'
+import thanksgiving from '../public/images/thanksgiving.jpg'
+import toast from '../public/images/toast.jpg'
+
 
 function Burger() {
     return <Image
-        src="/images/burger.jpg"
+        src={burger}
         height={300}
         width={300}
         alt="burger"
@@ -14,7 +21,7 @@ function Burger() {
 
 function Egg() {
     return <Image
-        src="/images/egg.jpg"
+        src={egg}
         height={300}
         width={300}
         alt="egg"
@@ -24,7 +31,7 @@ function Egg() {
 
 function Fish() {
     return <Image
-        src="/images/fish.jpg"
+        src={fish}
         height={300}
         width={300}
         alt="fish"
@@ -34,7 +41,7 @@ function Fish() {
 
 function Mediterranean() {
     return <Image
-        src="/images/mediterranean.jpg"
+        src={mediterranean}
         height={300}
         width={300}
         alt="mediterranean"
@@ -44,7 +51,7 @@ function Mediterranean() {
 
 function Thanksgiving() {
     return <Image
-        src="/images/thanksgiving.jpg"
+        src={thanksgiving}
         height={300}
         width={300}
         alt="thanksgiving"
@@ -54,7 +61,7 @@ function Thanksgiving() {
 
 function Toast() {
     return <Image
-        src="/images/toast.jpg"
+        src={toast}
         height={300}
         width={300}
         alt="toast"

@@ -1,10 +1,13 @@
 import Navbar from '../components/navbar'
 import Image from 'next/image'
 import css from '../styles/reviews.module.css'
+import chef from '../public/images/chef.jpg'
+import coo from '../public/images/coo.jpg'
+import cto_01 from '../public/images/cto_01.jpg'
 
 function CEO() {
     return <Image
-        src="/images/chef.jpg"
+        src={chef}
         height={300}
         width={300}
         alt="toast"
@@ -14,7 +17,7 @@ function CEO() {
 
 function COO() {
     return <Image
-        src="/images/coo.jpg"
+        src={coo}
         height={300}
         width={300}
         alt="toast"
@@ -24,7 +27,7 @@ function COO() {
 
 function CTO() {
     return <Image
-        src="/images/cto_01.jpg"
+        src={cto_01}
         height={300}
         width={300}
         alt="toast"

@@ -1,11 +1,12 @@
 import Navbar from '../components/navbar'
 import Image from 'next/image';
 import css from '../styles/about-the-chef.module.css'
+import chef from '../public/images/chef.jpg'
 
 
 function Chef() {
     return <Image
-        src="/images/chef.jpg"
+        src={chef}
         height={600}
         width={500}
         alt="Professional headshot of a chef"
